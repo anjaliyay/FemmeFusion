@@ -13,4 +13,5 @@ The data collected from the participants can be populated into the system, and r
 It can also be used to develop real-time rapid intervention by the student community, college administration, and local authorities.
 Further to this, a companion model can also be developed for students that helps them travel through black spots and during red time zones.
 This will not only ensure the community participation of students but also develop a responsibility-sharing framework for campus safety.
+<br>
 Author - Anjali Shah
