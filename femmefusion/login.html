@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log-in</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background:#fff;
+            line-height:1.8;
+
+        }
+        a{
+           text-decoration:none;
+
+        }
+        #container{
+            max-width:400px;
+            margin:30px auto;
+            padding:20px;
+        }
+        #container h1 {
+            text-align:center;
+            font-weight: bold;
+            color: #007BFF ;
+        }
+        .form-wrap {
+            background: #fff;
+            padding: 15px 25px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+            border-radius: 5px;
+        }
+        
+        .form-wrap h3,
+        .form-wrap p{
+            text-align:center;
+
+        }
+        .form-wrap .form-group{
+            margin-top:15px;
+            }
+         .form-wrap .form-group label{
+            display:block;
+            color:#343232;
+         }
+         .form-wrap .form-group input{
+            width:100%;
+            padding:10px;
+            border: #ddd 1px solid;
+            border-radius:7px;
+         }
+         .form-wrap button{
+            display:block;
+            color:#fff;
+            background-color:#007BFF;
+            width:100%;
+            padding:10px;
+            margin-top:20px;
+            border: none;
+            margin: 20px auto;
+            border-radius: 7px;
+            cursor:pointer;
+         }
+         .form-wrap button:hover{
+            background-color:#0465f7;
+         }
+         .form-wrap .form-group p a {
+            font-size: 12px;
+        }
+        
+        .form-group .divider {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .form-group .divider span.line {
+            border-top: 1px solid #ccc;
+            display: inline-block;
+            width: 131px;
+            margin-top: 10px;
+        }
+
+        .form-group .divider span.or-text {
+            color: #ccc;
+            padding: 0 10px;
+        }
+
+
+         .form-wrap .form-group button{
+            display:block;
+            color:#fff;
+            background-color:#08d857;
+            margin: 0 auto;
+            width:100%;
+            padding:10px;
+            margin-top:20px;
+            border: none;
+            border-radius: 7px;
+            cursor:pointer;
+         }
+         .form-wrap .form-group button:hover{
+            background-color:#23b15c;
+         }
+
+        .form-wrap a {
+            color: #1877f2;
+            text-decoration: none;
+            transition: text-decoration 0.2s;
+        }
+
+        .form-wrap a:hover {
+            text-decoration: underline; 
+        }
+        </style>
+</head>
+<body>
+    <div id="container">
+        <h1>femmefusion</h1>
+      <div class="form-wrap">
+        <h3>Log into FemmeFusion</h3>
+        <form>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="text"name="email" id="email" placeholder="Enter Your Mobile Number Or E-mail Address" required/>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="text"name="password" id="password" placeholder="New Password" required/>
+            </div>
+    
+            <button type="submit" class="btn">Log in</button>
+
+            <div class="form-group">
+                <p><a href="forgotpw.html">Forgot Password?</a></p>
+            </div>
+            
+            <div class="form-group">
+                <p class="divider">
+                    <span class="line"></span>
+                    <span class="or-text">or</span>
+                    <span class="line"></span>
+                </p>
+            </div>
+
+            <div class="form-group">
+                <button type="button" class="btn" onclick="window.location.href = 'signup.html';">Create new account</button>
+            </div>
+            
+        </form>
+    </div>    
+    </div>
+    </body>
+</html>
