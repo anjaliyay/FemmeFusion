@@ -10,6 +10,51 @@
             margin: 0;
             padding: 0;
         }
+        header {
+            background-color: #ffffffe2;
+            color: #3e3d3d;
+            padding: 20px 0;
+        }        
+        nav {
+            display: flex;
+            background-color: #fff;
+            justify-content: space-between;
+            align-items: center;
+            padding: 17px 70px;
+          }
+          
+          .logo {
+          max-width: 700px; 
+          height: 70px;
+          }
+          
+          .nav-links {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              display: flex;
+          }
+          
+          .nav-links li {
+              margin-right: 20px;
+          }
+          
+          .nav-links a {
+              color: #4d4c4c;
+              font-size: 22px;
+              text-decoration: none;
+              transition: color 0.3s;
+          }
+          
+          .nav-links a:hover {
+              color: #ff6600;
+          }
+          
+          .mobile-menu-toggle {
+              display: none;
+              flex-direction: column;
+              cursor: pointer;
+          }
 
         body {
             font-family: Arial, sans-serif;
@@ -69,7 +114,73 @@
             text-align: center;
             margin-top: 10px;
         }
+        footer{
+            background-color: #494a58d3;
+            color: #000000;
+            padding:20px 0;
+            font-size:14px;
+          
+          }
+          footer .container{
+            display:flex;
+            justify-content:space-between;
+            align-items:normal;
+          }
+          
+          footer .title{
+            font-size:20px;
+            font-weight:600;
+            text-transform:uppercase;
+            border-bottom:2px solid;
+            margin-bottom:30px;
+            padding:0 0 5px 0;
+          
+          }
+          footer p{
+            margin-bottom:10px;
+          }
+          footer .linksContainer ul{
+            list-style-type:none;
+          }
+          footer .linksContainer ul li a {
+            text-decoration:none;
+            color:#010101;
+            margin-bottom:10px;
+            display:inline-block;
+          }
+          footer .newsLetterContainer{
+            height:40px;
+            margin-bottom:11px;
+          }
+          footer .newsLetterContainer input{
+            background-color:transparent;
+            border:1px solid #010101;
+            outline:none;
+            padding:10px 15px;
+            width:100%;
+            margin-top:10px;
+            color:#ccc;
+            border-radius:30px;
+          }
     </style>
+    <nav>
+        <div class="footer-logo">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="homepage.html">About Us</a></li>
+            <li><a href="#">Case Study</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="report.html">Report</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 </head>
 <body>
     <div class="container">
@@ -100,5 +211,58 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="newsLetterContainer">
+            <img src="images/logo.png"style="width:150px" alt="">
+            <p>
+                “Each time a woman stands up for herself, she stands up for all women.”<br>
+                - Maya Angelou
+    
+            </p> 
+            
+            </div>
+            <div class="linksContainer">
+            <div class="title">
+                Useful Links
+                </div>
+            <ul>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="homepage.html">About Us</a>
+                </li>
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="report.html">Report</a>
+                </li>
+                <li>
+                    <a href="signup.html">Join Us</a>
+                </li>
+            </ul>
+            </div>
+             <div class="connectContainer">
+                <div class="title">
+                    Connect With Us
+                </div>
+                <p>SRM University,Kattankulathur,Chennai<br>
+                    603203, Tamil Nadu
+                </p>
+                <p>
+                    infodesk@srmist.edu.in
+                </p>
+                <p>
+                    +91-44- 27417000, +91-44-27417777
+                </p>
+             </div>
+        </div>
+     </footer> 
 </body>
 </html>
